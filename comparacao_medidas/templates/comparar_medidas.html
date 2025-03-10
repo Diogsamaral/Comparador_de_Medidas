@@ -1,0 +1,7 @@
+<form method="post">
+    {% csrf_token %}
+    {{ medidas_form.as_p }}
+    {{ tabela_form.as_p }}
+    <button type="submit">Comparar</button>
+</form>
+  
